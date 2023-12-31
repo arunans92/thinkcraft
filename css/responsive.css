@@ -25,6 +25,7 @@
 
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
         padding: 0 5px;
+        padding-left: 10px;
     }
 }
 
