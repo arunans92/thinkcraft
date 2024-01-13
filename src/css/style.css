@@ -146,6 +146,10 @@ body {
   padding-top: 0;
 }
 
+.banner-subtitle{
+  margin-top: 50px !important;
+}
+
 .hero_area.sub_pages {
   height: auto;
 }

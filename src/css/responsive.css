@@ -71,6 +71,17 @@
     }
 }
 
+@media (max-width: 767px) {
+    .title-text {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .sub-title-text {
+        margin-top: -15px !important;
+    }
+}
+
 @media (max-width: 576px) {
     .slider_section .detail-box h1 {
         font-size: 3.5rem;

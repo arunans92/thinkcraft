@@ -5,11 +5,11 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="keywords" content="Thinkcraft" />
-  <meta name="description" content="Thinkcraft - Innovate and Integrate" />
+  <meta name="keywords" content="Thinkcraft Automation" />
+  <meta name="description" content="We Thinkcraft Automation - Innovate and Integrate" />
   <meta name="author" content="Arunan" />
 
-  <title>Thinkcraft</title>
+  <title>Thinkcraft Automation</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -29,7 +29,7 @@
               <img src="assets/images/tc_icon.png" alt="" class="logo" />
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          <button class="navbar-toggler collapsed" type="button" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,23 +38,23 @@
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
                   <button class="nav-link" data-link="Banner" data-toggle="collapse"
-                    data-target=".navbar-collapse.show">Home <span class="sr-only">(current)</span></button>
+                    data-target="#navbarSupportedContent.show">Home <span class="sr-only">(current)</span></button>
                 </li>
                 <li class="nav-item">
-                  <button class="nav-link" data-link="About" data-toggle="collapse" data-target=".navbar-collapse.show">
+                  <button class="nav-link" data-link="About" data-toggle="collapse" data-target="#navbarSupportedContent.show">
                     About us</button>
                 </li>
                 <li class="nav-item">
                   <button class="nav-link" data-link="WhatWeDo" data-toggle="collapse"
-                    data-target=".navbar-collapse.show"> What we do </button>
+                    data-target="#navbarSupportedContent.show"> What we do </button>
                 </li>
                 <li class="nav-item">
                   <button class="nav-link" data-link="Footprints" data-toggle="collapse"
-                    data-target=".navbar-collapse.show"> Footprints </button>
+                    data-target="#navbarSupportedContent.show"> Footprints </button>
                 </li>
                 <li class="nav-item">
                   <button class="nav-link" data-link="Contact" data-toggle="collapse"
-                    data-target=".navbar-collapse.show">Contact us</button>
+                    data-target="#navbarSupportedContent.show">Contact us</button>
                 </li>
               </ul>
             </div>
@@ -71,11 +71,12 @@
                 <div class="col">
                   <div class="detail-box banner">
                     <div>
-                      <h1>
-                        Thinkcraft
+                      <h1 class="mb-0">
+                        Thinkcraft <span class="h3 title-text">Automation</span>
                       </h1>
-                      <p class="subtitle">
-                        Innovate & Integrate
+                      <p class="sub-title-text">( R & D Division of Tesla Projects )</p>
+                      <p class="subtitle banner-subtitle">
+                        " We Innovate & Integrate "
                       </p>
                     </div>
                   </div>
@@ -100,10 +101,10 @@
               </h2>
             </div>
             <p>
-              Thinkcraft Pvt Ltd is a 2024 startup and a micro enterprise as on date. The company was split
-              up from Tesla Projects, Sankagiri which was established in year 2021 and dealt with manufacturing of
-              consumer electronics products and goods. The split up and formation of 'Thinkcraft' was aimed to
-              strategically revamp the operations.
+              Thinkcraft Automation is a 2024 startup and a micro enterprise as on date. The company is a R & D Division
+              of Tesla Projects, Sankagiri which was established in year 2021 and dealt with manufacturing of
+              consumer electronics products and goods. Formation of 'Thinkcraft Automation' was aimed
+              to strategically revamp the operations.
               A set of experienced professionals with varied field experience patched up with a vision
               of achieving self reliance in military and civil technologies.
             </p>
@@ -126,7 +127,8 @@
           What we do
         </h2>
         <p>
-          Thinkcraft offers COTS and various tailored technological solutions to suit customer requirements. Our
+          Thinkcraft Automation offers COTS and various tailored technological solutions to suit customer requirements.
+          Our
           workflows are process oriented designed to achieve the desired results.
         </p>
       </div>
@@ -377,7 +379,11 @@
           <div class="row">
             <div class="col-md-9 mx-auto">
               <div class="contact-form">
-                <form action="mailto:support@thinkcraft.co.in" method="post" enctype="text/plain">
+                <form name="ContactUs" data-netlify="true" method="post" onSubmit="submit"
+                  data-netlify-honeypot="bot-field">
+                  <div class="d-none">
+                    <input name="bot-field">
+                  </div>
                   <div>
                     <input type="text" name="name" placeholder="Full Name ">
                   </div>
