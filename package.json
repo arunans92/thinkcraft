@@ -1,7 +1,7 @@
 {
   "name": "thinkcraft",
   "version": "1.0.0",
-  "description": "thinkcraft - innovate and integrate ",
+  "description": "thinkcraft automation - we innovate and integrate ",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
