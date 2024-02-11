@@ -171,7 +171,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  margin: 10px 30px;
+  margin: 0px 15px;
   color: #ffffff;
   text-align: left;
   position: relative;
@@ -180,7 +180,7 @@ body {
   outline: none;
 }
 
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
+/* .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -191,6 +191,11 @@ body {
   height: 7px;
   border-radius: 100%;
   background-color: #ffffff;
+} */
+
+.nav-link img{
+  width: 24px;
+  margin-right: 10px;
 }
 
 a,
