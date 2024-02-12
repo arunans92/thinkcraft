@@ -19,6 +19,8 @@ $(".owl-carousel").owlCarousel({
 
 $("button.nav-link").click(function () {
     const id = $($(this)[0]).attr("data-link")
+    $("button.nav-link").parent().removeClass('active');
+    $(this).parent().addClass('active');
     $('html, body').animate({
         scrollTop: ($("#" + id).offset().top) - 90
     }, 750);

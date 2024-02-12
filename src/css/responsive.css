@@ -27,6 +27,11 @@
         padding: 0 5px 0 10px;
         margin: 15px;
     }
+
+    .nav-item.active .nav-link{
+        border-bottom: none !important;
+        color: #fec913 !important;
+    }
 }
 
 @media (max-width: 768px) {
